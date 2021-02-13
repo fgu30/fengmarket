@@ -1,0 +1,1 @@
+GET https://finnhub.io/api/v1/webhook/add?token=c0ib9g748v6qfc9dfkd0 HTTP/1.1

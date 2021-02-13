@@ -1,2 +1,9 @@
-psaw
+alpaca_trade_api
 psycopg2
+psaw
+requests
+asyncpg
+aiohttp
+nltk
+tweepy
+alpha_vantage

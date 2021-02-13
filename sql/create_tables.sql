@@ -7,6 +7,13 @@ CREATE TABLE stock (
     is_etf BOOLEAN NOT NULL
 );
 
+CREATE TABLE stock_cached(
+    id SERIAL PRIMARY KEY,
+    symbol TEXT NOT NULL,
+    name TEXT NOT NULL,
+    belonged_ETF TEXT NOT NULL
+)
+
 CREATE TABLE mention (
     stock_id INTEGER,
     dt TIMESTAMP WITHOUT TIME ZONE NOT NULL,
